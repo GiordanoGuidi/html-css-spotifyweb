@@ -1,0 +1,28 @@
+/* SOPRA I 639 PX (S)*/
+
+@media screen and (min-width:639px){ 
+/* LA SIDE BAR AUMENTA DI LARGHEZZA*/
+    .side-bar{
+        flex-basis: 150px;
+    }
+/* GLI LI CAMBIANO POSIZIONE*/
+
+    .side-bar-icon-list,
+    .side-bar-footer{
+        align-items: flex-start;
+        text-align: start;
+    }
+/* COMPAIONI I TESTI E LE IOCONE NELLA SIDEBAR*/
+
+    .side-bar-text-hidden{
+        display: inline-block;
+    }
+}
+
+
+/* SOPRA I 878 PX (md)*/
+
+
+
+/* SOPRA I 878 PX (lg)*/
+
