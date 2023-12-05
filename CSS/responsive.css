@@ -1,4 +1,4 @@
-/* SOPRA I 639 PX (S)*/
+/*************** SOPRA I 639 PX (S)********************/
 
 @media screen and (min-width:639px){ 
 /* LA SIDE BAR AUMENTA DI LARGHEZZA*/
@@ -17,12 +17,24 @@
     .side-bar-text-hidden{
         display: inline-block;
     }
+
+}
+
+/**************SOPRA I 878 PX (md)***********************/
+
+@media screen and (min-width:878px) {
+    /* LE COLONNE NELLA RIGA DIVENTANO 4 */
+    .col{
+        flex-basis: calc(100% / 4);
+    }
 }
 
 
-/* SOPRA I 878 PX (md)*/
+/**************SOPRA I 1440 PX (lg)***********************/
 
-
-
-/* SOPRA I 878 PX (lg)*/
-
+@media screen and (min-width:1440px) {
+    /* LE COLONNE NELLA RIGA DIVENTANO 6 */
+    .col{
+        flex-basis: calc(100% / 6);
+    }
+}
