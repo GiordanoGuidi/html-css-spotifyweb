@@ -138,10 +138,16 @@ header{
     align-items: center;
     justify-content: flex-end;
     background-color: #090B12;
+    position: sticky;
+    top: 0;
+    left: 0;
+    right: 0;
+    opacity: 0.8;
 }
 
 .button-header{
     padding: 10px 20px;
+    border: 1px solid white;
     border-radius: 20px;
     color: white;
     background-color: transparent;
