@@ -48,7 +48,14 @@ h3{
     color: white;
 }
 
+img{
+    max-width: 100%;
+    display: block;
+}
 
+nav{
+    margin-top: 20px;
+}
 /*UTILS*/
 .border{
     border: 2px dashed white;
@@ -57,8 +64,6 @@ h3{
 .border-r50{
     border-radius: 50%;
 }
-
-
 /*SIDE-BAR*/
  .side-bar{
     padding: 10px;
@@ -88,9 +93,7 @@ h3{
     align-items: center;
     gap: 20px;
     background-color: black;
-   
 } 
-
 /* HEADER */
 
 header{
@@ -111,7 +114,7 @@ header{
 } 
 
 /* SECTION MAIN CONTENT */
-#main-content{
+section{
     padding: 50px;
     color: gray;
 }
@@ -133,15 +136,14 @@ header{
 }
 
 .col{
-    height: 200px;
     flex-basis: 50%;
     padding: 0 1rem;
 }
 
-.card{
-    background-color: aquamarine;
-    height: 100%;
-    width: 100%;
+.card-text{
+    margin-top: 10px;
+    line-height: 1.5rem;
+    text-align: center;
 }
 
 
