@@ -7,15 +7,19 @@
     }
 /* GLI LI CAMBIANO POSIZIONE*/
 
-    .side-bar-icon-list,
-    .side-bar-footer{
+    .side-bar-list,
+    .side-bar-bottom{
         align-items: flex-start;
         text-align: start;
     }
 /* COMPAIONI I TESTI E LE IOCONE NELLA SIDEBAR*/
 
-    .side-bar-text-hidden{
-        display: inline-block;
+    .text-hidden{
+        display: inline;
+    }
+
+    .side-bar img{
+        width: 30px;
     }
 
 }
