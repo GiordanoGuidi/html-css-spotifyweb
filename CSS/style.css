@@ -17,12 +17,6 @@
     flex-direction: column;
 }
 
-footer{
-    height: 70px;
-    background-color: chartreuse;
-    flex-shrink: 0;
-}
-
 .upper-content{
     flex-grow: 1; 
     display: flex;
@@ -54,12 +48,12 @@ img{
     display: block;
 }
 
-nav.selection{
-    margin-top: 20px;
-}
-
 .upper-content{
     background-color: #141922;
+}
+
+.col-footer a{
+    color:#5A5A5A ;
 }
 /*UTILS*/
 .border{
@@ -71,6 +65,22 @@ nav.selection{
 }
 
 .white{
+    color: white;
+}
+
+.bg-blue{
+    background-color: dodgerblue;
+}
+
+.m-right10{
+    margin-right: 10px;
+}
+
+.m-right20{
+    margin-right: 20px;
+}
+
+.c-white{
     color: white;
 }
 /*SIDE-BAR*/
@@ -109,13 +119,9 @@ nav.selection{
 }
 
 .side-bar-footer{
-    /* display: flex; */
-    /* flex-direction: column; */
-    /* gap: 20px; */
     text-align: center;
     line-height: 2rem;
     background-color: black;
-    /* align-items: center; */
 } 
 
 .logo{
@@ -130,8 +136,7 @@ nav.selection{
 }
 /* HEADER */
 header{
-    padding: 50px;
-    width: 100%;
+    padding: 40px;
     height: 70px;
     display: flex;
     align-items: center;
@@ -152,18 +157,23 @@ header{
     background-color: transparent;
 } 
 
-/* SECTION MAIN CONTENT */
-section{
-    padding: 50px;
-    color: gray;
-}
-
+/* NAV */
 .selection-list{
     display: flex;
     flex-wrap: wrap;
     gap: 20px;
     justify-content: center;
     margin-bottom: 30px;
+}
+
+nav.selection{
+    margin-top: 40px;
+}
+/* SECTION RECENTLY PLEYED */
+
+section{
+    padding: 30px;
+    color: gray;
 }
 
 .row{
@@ -185,12 +195,81 @@ section{
     text-align: center;
 }
 
+/*FOOTER*/
 
-.list-container{
+footer{
+    height: 100px;
+    background-color: #282828;
+    flex-shrink: 0;
     display: flex;
+    font-size: 0.8rem;
+    color: #5A5A5A;
+    /* margin: 0px -10px; */
 }
 
 
+.col-footer{
+    /* flex-basis: calc(100% / 3); */
+    height: 100%;
+    padding: 20px 10px;
+    display: flex;
+    align-items: center;
+    gap: 10px;
+}
+
+.col-footer.card-info-music{
+    flex-basis: 30%;
+}
+
+.card-img{
+    height: 100%;
+    flex-shrink: 0;
+} 
+
+.footer-img{
+    height: 100%;
+}
+
+.add-to-favourite a{
+    display: block;
+}
+
+.col-footer.tools{
+    flex-basis: 40%;
+    flex-direction: column;
+    gap: 20px;
+}
+
+.music-time{
+    display: flex;
+    align-items: center;
+    gap: 10px;
+    width: 100%;
+    justify-content: center;
+}
+
+.progress-bar{
+    height: 3px;
+    background-color: #5A5A5A;
+    width: 70%;
+}
+
+.current-progress{
+    width: 20%;
+    height: 100%;
+    background-color: #C1C1C1;
+}
+
+.progress-bar-short{
+    height: 3px;
+    background-color: #5A5A5A;
+    width: 50%;
+}
+
+.col-footer.settings{
+    justify-content: flex-end;
+    flex-basis: 30%;
+}
 
 
 

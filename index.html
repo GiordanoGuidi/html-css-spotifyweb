@@ -18,7 +18,7 @@
             <!--SIDE-BAR-->
             <nav class="side-bar">
                 <div class="logo">
-                    <span><i class="fa-brands fa-spotify fa-2xl"></span></i><h1 class="side-bar-text-hidden">Spotify</h1>
+                    <span><i class="fa-brands fa-spotify fa-2xl"></i></span><h1 class="side-bar-text-hidden">Spotify</h1>
                 </div>
                 <div class="side-bar-list">
                     <ul class="side-bar-icon-list">
@@ -36,12 +36,12 @@
                         <li class="side-bar-text-hidden"> <a href="#">Nome Playlisy</a></li>
                     </ul>
                 <!--SIDE-BAR FOOTER-->
-                <footer class="side-bar-footer">
+                <div class="side-bar-footer">
                     <ul>
                         <li> <span><i class="fa-regular fa-circle-down"></i></span><a href="#" class="side-bar-text-hidden">Installa app</a></li>
                         <li><span><i  class="fa-regular fa-circle-user fa-lg" style="color: #cdcdcd;"></i></span><a href="#" class="side-bar-text-hidden">Jordan Pre</a></li>
                     </ul>
-                </footer>
+                </div>
                 </div> 
             </nav>
             <!--MAIN-->
@@ -65,7 +65,7 @@
                 <section id="recently-pleyed">
                     <h2>Recently played</h2>
                     <!--ROW RECENTLY PLEYED-->
-                    <div class="row recently-pleyed">
+                    <div class="row recently-played">
                         <div class="col">
                             <div class="card">
                                 <div class="card-img">
@@ -171,9 +171,9 @@
                     <h2>Artisti più popolari</h2>
                     <p>Più ascolti, più accurati saranno i suggerimenti</p>
                 </section>
-                <section id="popolar-artists">
+                <section id="popular-artists">
                     <!--ROW POPOLAR ARTISTS-->
-                    <div class="row popolar-artists">
+                    <div class="row popular-artists">
                         <div class="col">
                             <div class="card">
                                 <div class="card-img">
@@ -200,7 +200,50 @@
             </main>
         </div>
         <footer>
+
+            <div class="col-footer card-info-music">
+                <div class="card-img">
+                    <img src="img/sinister.jpeg" alt="#" class="footer-img">
+                </div>
+                <div class="song-title">
+                    <h3>Sinister</h3>
+                    <h4>Brano nome</h4>
+                </div>
+                <div class="add-to-favourite">
+                    <a href="#"><i class="fa-regular fa-heart m-right10"></i></a>
+                    <a href="#"><i class="fa-regular fa-folder"></i></a>
+                </div>
+            </div>
+
+            <div class="col-footer tools">
+                <div class="commands-footer c-white">
+                    <a href="#"><i class="fa-solid fa-shuffle fa-lg m-right20"></i></a>
+                    <a href="#"><i class="fa-solid fa-backward-step fa-lg m-right20"></i></a>
+                    <a href="#"><i class="fa-regular fa-circle-play fa-2xl m-right20"></i></a>
+                    <a href="#"><i class="fa-solid fa-forward-step fa-lg m-right20"></i></a>
+                    <a href="#"><i class="fa-solid fa-rotate-right fa-lg"></i></a>
+                </div>
+                    <div class="music-time">
+                        <p>0:25</p>
+                        <div class="progress-bar">
+                            <div class="current-progress">
+                            </div>
+                        </div>
+                        <p>4:35</p>
+                    </div>
+            </div>
+
+            <div class="col-footer settings">
+                <a href="#"><i class="fa-solid fa-bars"></i></a>
+                <a href="#"><i class="fa-solid fa-display"></i></a>
+                <a href="#"><i class="fa-solid fa-volume-high"></i></a>
+                <div class="progress-bar-short">
+                    <div class="current-progress">
+                    </div>
+                </div>
+            </div>
         </footer>
     </div>
 </body>
 </html>
+
