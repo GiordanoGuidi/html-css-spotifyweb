@@ -275,6 +275,7 @@ footer{
     flex-basis: 40%;
     flex-direction: column;
     gap: 20px;
+    justify-content: center;
 }
 
 .music-time{
