@@ -59,6 +59,13 @@ img{
 .col-footer a{
     color:#5A5A5A ;
 }
+
+.play-selector{
+    opacity: 0.6;
+    width: 100%;
+    height: 100%;
+
+}
 /*UTILS*/
 .border{
     border: 2px dashed white;
@@ -94,6 +101,11 @@ img{
 
 .bg-gray{
     background-color: #808080;
+}
+
+a:hover,
+li:hover{
+    filter: brightness(200%);
 }
 /*SIDE-BAR*/
  .side-bar{
@@ -151,9 +163,6 @@ img.logo-big{
     width: 150px;
 }
 
-/* .side-bar-text-hidden{
-     display: none;
-} */
 /* HEADER */
 header{
     padding: 40px;
@@ -175,6 +184,7 @@ header{
     border-radius: 20px;
     color: white;
     background-color: transparent;
+    cursor: pointer;
 } 
 
 /* NAV */
@@ -186,7 +196,6 @@ header{
 .side-bar-bottom{
     height: 70px;
 }
-
 
 .selection-list{
     display: flex;
