@@ -17,9 +17,20 @@
     .text-hidden{
         display: inline;
     }
+/* LE IMMAGINI RIDUCONO DI DIMENSIONI*/
 
-    .side-bar img{
+    .side-bar-list img,
+    .side-bar-bottom img{
         width: 30px;
+    }
+/* SPARISCE IL LOGO PICCOLO*/
+
+    .img-logo-s{
+        display: none;
+    }
+
+    .side-bar li{
+        display: flex;
     }
 
 }
@@ -30,6 +41,11 @@
     /* LE COLONNE NELLA RIGA DIVENTANO 4 */
     .col{
         flex-basis: calc(100% / 4);
+    }
+    
+    /* LE IMMAGINI DI METTONO DI FIANCO*/
+    .add-to-favourite a{
+        display: inline;
     }
 }
 
