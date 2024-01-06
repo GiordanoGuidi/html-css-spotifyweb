@@ -1,30 +1,25 @@
 /*************** SOPRA I 639 PX (S)********************/
-
 @media screen and (min-width:639px){ 
 /* LA SIDE BAR AUMENTA DI LARGHEZZA*/
     .side-bar{
         flex-basis: 150px;
     }
 /* GLI LI CAMBIANO POSIZIONE*/
-
     .side-bar-list,
     .side-bar-bottom{
         align-items: flex-start;
         text-align: start;
     }
 /* COMPAIONI I TESTI E LE IOCONE NELLA SIDEBAR*/
-
     .text-hidden{
         display: inline;
     }
 /* LE IMMAGINI RIDUCONO DI DIMENSIONI*/
-
     .side-bar-list img,
     .side-bar-bottom img{
         width: 30px;
     }
 /* SPARISCE IL LOGO PICCOLO*/
-
     .img-logo-s{
         display: none;
     }
@@ -32,11 +27,9 @@
     .side-bar li{
         display: flex;
     }
-
 }
 
 /**************SOPRA I 878 PX (md)***********************/
-
 @media screen and (min-width:878px) {
     /* LE COLONNE NELLA RIGA DIVENTANO 4 */
     .col{
@@ -49,9 +42,7 @@
     }
 }
 
-
 /**************SOPRA I 1440 PX (lg)***********************/
-
 @media screen and (min-width:1440px) {
     /* LE COLONNE NELLA RIGA DIVENTANO 6 */
     .col{
