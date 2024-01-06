@@ -101,9 +101,16 @@ li:hover{
     filter: brightness(200%);
 }
 
-
 .p-relative{
     position: relative;
+}
+
+.b-bottom{
+    border-bottom: 1px solid gray;
+}
+
+.mb-10{
+    margin-bottom: 10px;
 }
 /*SIDE-BAR*/
 .side-bar{
@@ -139,6 +146,11 @@ li:hover{
     font-size: 0.8rem;
 }
 
+.playlist{
+    line-height: 2rem;
+    overflow: auto;
+}
+
 .side-bar-icon-list i,
 .side-bar-footer i{
     margin-right: 5px;
@@ -148,7 +160,13 @@ li:hover{
     text-align: center;
     line-height: 2rem;
     background-color: black;
+    /* position: sticky; */
+    height: 70px;
 } 
+
+.side-bar-top{
+    height: calc(100% - 70px);
+}
 
 .logo{
     padding: 20px 0px;
@@ -190,14 +208,6 @@ header{
 }
 
 /* NAV */
-.side-bar-top{
-    height: calc(100% - 70px);
-}
-
-.side-bar-bottom{
-    height: 70px;
-}
-
 .selection-list{
     display: flex;
     flex-wrap: wrap;
@@ -262,7 +272,6 @@ section{
 .card-img:hover img{
     filter: opacity(0.7);
 }
-
 
 /*FOOTER*/
 footer{
