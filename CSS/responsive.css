@@ -10,10 +10,12 @@
         align-items: flex-start;
         text-align: start;
     }
-/* COMPAIONI I TESTI E LE IOCONE NELLA SIDEBAR*/
-    .text-hidden{
-        display: inline;
+/* COMPAIONo I TESTI E LE ICONE NELLA SIDEBAR*/
+    .text-hidden, .add-playlist i{
+        display: inline-block;
     }
+
+
 /* LE IMMAGINI RIDUCONO DI DIMENSIONI*/
     .side-bar-list img,
     .side-bar-bottom img{
@@ -27,6 +29,7 @@
     .side-bar li{
         display: flex;
     }
+
 }
 
 /**************SOPRA I 878 PX (md)***********************/

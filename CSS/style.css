@@ -108,7 +108,23 @@ li:hover{
 .mb-10{
     margin-bottom: 10px;
 }
+
+.mt-10{
+    margin-top: 10px;
+}
+
+.d-flex{
+    display: flex;
+}
+
 /*SIDE-BAR*/
+.side-bar-top{
+    height: calc(100% - 70px);
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+    overflow: hidden;
+}
 .side-bar{
     padding: 10px;
     background-color: black;
@@ -127,34 +143,34 @@ li:hover{
     margin-top: 30px;
 }
 
-
-.side-bar-list li.active::before{
-    content: '';
-    display: block;
-    width: 2px; 
-    height: 100%;
-    background-color: yellowgreen;
-    left: 0; 
-}
-
 .side-bar li{
     align-items: center;
     gap: 5px;
 }
 
 .side-bar-icon-list{
-    display: flex;
-    flex-direction: column;
-    gap: 20px;
     font-size: 1.3rem;
     align-items: center;
     justify-content: space-between;
     font-size: 0.8rem;
 }
 
-.playlist{
+.playlist-menu{
     line-height: 2rem;
+    margin-top: 10px;
     overflow: auto;
+    max-height: 150px;
+}
+
+.playlist-link{
+    text-decoration: none;
+    color: gray;
+    display: inline;
+
+}
+
+.add-playlist i{
+    display: none;
 }
 
 .side-bar-icon-list i,
@@ -168,9 +184,6 @@ li:hover{
     background-color: black;
 } 
 
-.side-bar-top{
-    height: calc(100% - 70px);
-}
 
 .logo{
     padding: 20px 0px;
