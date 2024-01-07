@@ -10,10 +10,6 @@ body{
     font-family:'Montserrat', sans-serif;
 }
 
-.container{
-    width: 1200px;
-    margin: 0 auto;
-}
 .wrapper{
     display: flex;
     height: 100vh;
@@ -131,6 +127,16 @@ li:hover{
     margin-top: 30px;
 }
 
+
+.side-bar-list li.active::before{
+    content: '';
+    display: block;
+    width: 2px; 
+    height: 100%;
+    background-color: yellowgreen;
+    left: 0; 
+}
+
 .side-bar li{
     align-items: center;
     gap: 5px;
@@ -160,8 +166,6 @@ li:hover{
     text-align: center;
     line-height: 2rem;
     background-color: black;
-    /* position: sticky; */
-    height: 70px;
 } 
 
 .side-bar-top{
@@ -215,6 +219,16 @@ header{
     justify-content: center;
     margin-bottom: 30px;
 }
+
+.selection-list li.active::after{
+    content: '';
+    display: block;
+    width: 30%;
+    height: 2px;
+    background-color: yellowgreen;
+    margin: 3px auto;
+}
+
 
 nav.selection{
     margin-top: 40px;
